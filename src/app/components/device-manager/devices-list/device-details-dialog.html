@@ -1,0 +1,12 @@
+<div>
+  <h3 >
+    {{device.name | titlecase}}
+  </h3>
+  <hr>
+  <md-dialog-content>
+    Phases:
+    <div *ngFor="let phase of device.phases">
+      <span>phase name: {{phase['phase-name'] | titlecase}}</span>
+    </div>
+  </md-dialog-content>
+</div>

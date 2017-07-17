@@ -10,6 +10,7 @@ import { DevicesListComponent } from "./components/device-manager/devices-list/d
 import { DeviceItemComponent } from "./components/device-manager/devices-list/device-item/device-item.component";
 import { NavbarComponent } from "./components/navbar/navbar.component";
 import { DeviceManagerComponent } from "./components/device-manager/device-manager.component";
+import { deviceDetails } from "./components/device-manager/devices-list/devices-list.component";
 
 @NgModule({
   declarations: [
@@ -17,8 +18,10 @@ import { DeviceManagerComponent } from "./components/device-manager/device-manag
     DevicesListComponent,
     DeviceItemComponent,
     NavbarComponent,
-    DeviceManagerComponent
+    DeviceManagerComponent,
+    deviceDetails,
   ],
+  entryComponents: [deviceDetails],
   imports: [BrowserModule, BrowserAnimationsModule, MaterialModule, HttpModule],
   providers: [DeviceService],
   bootstrap: [AppComponent]
