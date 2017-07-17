@@ -1,0 +1,13 @@
+.grid-container{
+  display: grid;
+  grid-template-columns: 220px 220px 220px;
+  grid-gap:50px;
+  padding: 50px;
+  justify-content: center;
+  /*background-color:#AFAFAF;*/
+
+}
+
+.color-class{
+  /*width: 800px;  */
+}

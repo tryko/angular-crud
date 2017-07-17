@@ -1,0 +1,10 @@
+.card-container{
+  display: flex;
+  justify-content: space-around;
+  width:200px;
+  height: 200px;
+  border: 2px solid #0FAAAA;
+}
+md-card-footer{
+  padding: 10px;
+}
