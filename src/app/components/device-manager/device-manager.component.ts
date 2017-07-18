@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'device-manager',
   template: `
-    <div *ngIf="devices | async; let deviceList; else loading">
+    <div *ngIf="devices ; let deviceList; else loading">
       <devices-list [deviceList]="deviceList"></devices-list>
     </div>
     <ng-template #loading>Loading</ng-template>

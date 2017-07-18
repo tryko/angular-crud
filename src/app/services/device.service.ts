@@ -406,7 +406,7 @@ export class DeviceService {
     let options = new RequestOptions({ headers: headers })
     return this.hardCodedData;
         // return this.http.get("http://localhost:3000/devices")
-        //         .map(res => this.extractData(res))
+        //         .map(res => extractData(res))
         //         .catch(err => this.handleError(err));
   }
 
